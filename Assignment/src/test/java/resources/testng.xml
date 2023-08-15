@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng-suite" preserve-order="true">
+    <listeners>
+        <listener class-name="com.kenko.ui.Listeners"></listener>
+    </listeners>
+
+    <test name="assignment: Flight Ticket">
+        <classes>
+            <class
+                    name="com.test_ticket.assignment.FlightTicketTC"/>
+
+        </classes>
+    </test>
+    
+    <test name="assignment: Train Ticket">
+        <classes>
+            <class
+                    name="com.test_ticket.assignment.TrainTicketTC"/>
+
+        </classes>
+    </test>
+
+
+
+
+
+
+
+</suite>
